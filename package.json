@@ -1,8 +1,12 @@
 {
-	"name": "@algorand-devrel/use-wallet-ui",
-	"version": "5.0.0",
-	"description": "Component Wrapper for @txnlab/use-wallet",
-	"author": "Harsh Baid <harsh@harshbaid.com",
+	"name": "@algoscan/use-wallet-ui",
+	"version": "1.0.1",
+	"description": "React UI Component Wrapper for @txnlab/use-wallet",
+	"author": "Algoscan <supoprt@algoscan.app",
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
 	"license": "MIT",
 	"scripts": {
 		"build": "rm -rf dist/ && rollup -c"
