@@ -1,5 +1,5 @@
 
-# @algorand-devrel/use-wallet-ui
+# @algoscan/use-wallet-ui
 
 A UI Component Wrapper for [@TxnLab/use-wallet](https://github.com/TxnLab/use-wallet)  
 
