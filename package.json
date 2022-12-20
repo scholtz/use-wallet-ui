@@ -16,7 +16,7 @@
 	"type": "module",
 	"types": "dist/types/index.d.ts",
 	"dependencies": {
-		"@txnlab/use-wallet": "^1.0.3"
+		"@txnlab/use-wallet": "^1.0.4"
 	},
 	"peerDependencies": {
 		"react": "^18.2.0"
