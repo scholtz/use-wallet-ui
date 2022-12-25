@@ -13,6 +13,7 @@
 .wallet-menu {
 	position: absolute;
 	right: 0;
+	min-width: 350px;
 	padding: 16px;
 	margin-top: 8px;
 	display: flex;

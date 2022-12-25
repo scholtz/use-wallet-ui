@@ -1,6 +1,6 @@
 {
 	"name": "@algoscan/use-wallet-ui",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"description": "React UI Component Wrapper for @txnlab/use-wallet",
 	"author": "Algoscan <supoprt@algoscan.app",
 	"publishConfig": {
