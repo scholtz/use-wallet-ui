@@ -51,7 +51,7 @@ export default function WalletUI({primary, textColor, backgroundColor} : { prima
 						</div>
 						<div className="wallet-menu-title">
 							<h4>{provider.metadata.name}</h4>
-							<h6 style={{whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis'}}>{provider.isActive && provider.accounts[0].address}</h6>
+							<h6 style={{whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', width: '100%'}}>{provider.isActive && provider.accounts[0].address}</h6>
 						</div>
 						<div style={{marginLeft: 'auto'}}>
 							<button className="wallet-button-interact" onClick={() => provider.isConnected ? provider.isActive ? provider.disconnect() : provider.setActiveProvider() : provider.connect()}>
