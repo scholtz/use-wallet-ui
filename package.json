@@ -1,6 +1,6 @@
 {
 	"name": "@algoscan/use-wallet-ui",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"description": "React UI Component Wrapper for @txnlab/use-wallet",
 	"author": "Algoscan <supoprt@algoscan.app",
 	"publishConfig": {
@@ -16,12 +16,12 @@
 	"type": "module",
 	"types": "dist/types/index.d.ts",
 	"dependencies": {
-		"@txnlab/use-wallet": "^1.0.3"
+		"@txnlab/use-wallet": "^1.2.0"
 	},
 	"peerDependencies": {
 		"@blockshake/defly-connect": "^1.0.0",
 		"@json-rpc-tools/utils": "^1.7.6",
-		"@perawallet/connect": "^1.0.7",
+		"@perawallet/connect": "^1.1.0",
 		"@randlabs/myalgo-connect": "^1.4.2",
 		"@walletconnect/client": "^1.8.0",
 		"algorand-walletconnect-qrcode-modal": "^1.8.0",
