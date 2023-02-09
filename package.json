@@ -1,6 +1,6 @@
 {
 	"name": "@algoscan/use-wallet-ui",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"description": "React UI Component Wrapper for @txnlab/use-wallet",
 	"author": "Algoscan <supoprt@algoscan.app",
 	"publishConfig": {
@@ -16,7 +16,7 @@
 	"type": "module",
 	"types": "dist/types/index.d.ts",
 	"dependencies": {
-		"@txnlab/use-wallet": "^1.2.0"
+		"@txnlab/use-wallet": "^1.2.2"
 	},
 	"peerDependencies": {
 		"@blockshake/defly-connect": "^1.0.0",
