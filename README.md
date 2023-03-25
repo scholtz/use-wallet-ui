@@ -46,7 +46,7 @@ Import the Wallet UI in any of our UI Components. The component provides some de
 ```jsx
 import { WalletUI } from '@algoscan/use-wallet-ui'
 
-<WalletUI primary='green' textColor='#FF0000' />
+<WalletUI primary='green' textColor='#FF0000' openState={false} />
 ```  
 
 ### Sign Transactions
